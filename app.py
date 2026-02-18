@@ -8,8 +8,8 @@ class User(BaseModel):
 
 @app.get("/hello")
 def hello():
-    return {"message": "Hello World from EC2"}
+    return {"message": "Hello World from EC2 05:41"}
 
 @app.post("/hello")
 def hello_user(user: User):
-    return {"message": f"Hello {user.name} from EC2"}
+    return {"message": f"Hello {user.name} from EC2 05:41"}
